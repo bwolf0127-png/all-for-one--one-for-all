@@ -1,0 +1,1913 @@
+@media screen and (max-width: 720px){
+    img{
+        max-width: 100%;
+        object-fit: contain;
+        height: 10em;
+    }
+    .card{
+        max-width: 10em;
+        margin-top: 1em;
+    }
+    #products{
+        grid-template-columns: auto auto ;
+        grid-column-gap: 1em;
+
+    }
+}
+
+body {
+    background-image: url('img/a1 (1).png');
+     background-size: cover;
+           background-repeat: no-repeat; 
+    background-attachment: fixed;
+
+   
+} 
+
+   
+ nav {
+      
+   background-color: black;
+     color: blue;
+           padding: 5px;      
+ }
+ input{
+     width: 60%;
+     padding: 15px;
+ 
+ }
+ 
+  button{
+            display: inline-block;
+           padding: 10px 20px;
+          font-size:16px;
+        color: white;
+       background-color: #007BFF;
+          border: none;
+              border-radius: 5px;
+            text-decoration: none;
+           cursor: pointer;
+             padding:0;
+            margin: 0;
+            box-shadow: 2px 2px 10px #333;
+             position: absolute;
+            left: 140px;
+            top: 280px;
+                }
+        
+          button:hover {
+                    background-color: #0056b3;
+                }
+ 
+ p{
+    padding: 5px;
+    border: 2px solid white;
+    color: antiquewhite;
+ }
+ 
+
+
+ .box1 {
+    width: 50px;
+    height: 50px;
+    background-color: rgb(30, 30, 197);
+    transition: transform 0.3s; /* Smooth animation */
+    padding:0;
+    margin: 0;
+    box-shadow: 2px 2px 10px #333;
+     position: absolute;
+    left: 30px;
+    top: 200px;
+}
+
+/* When mouse hovers over the box */
+.box1:hover {
+    transform: scale(1.1); /* Zoom in */
+}
+
+.box2{
+    width: 50px;
+    height: 50px;
+    background-color: rgb(30, 30, 197);
+    transition: transform 0.3s; /* Smooth animation */
+    padding:0;
+    margin: 0;
+    box-shadow: 2px 2px 10px #333;
+     position: absolute;
+    left: 300px;
+    top: 200px;
+}
+
+/* When mouse hovers over the box */
+.box2:hover {
+    transform: scale(1.1); /* Zoom in */
+}
+
+.box3 {
+    width: 50px;
+    height: 50px;
+    background-color: rgb(30, 30, 197);
+    transition: transform 0.3s; /* Smooth animation */
+    padding:0;
+    margin: 0;
+    box-shadow: 2px 2px 10px #333;
+     position: absolute;
+    left: 500px;
+    top: 200px;
+}
+
+/* When mouse hovers over the box */
+.box3:hover {
+    transform: scale(1.1); /* Zoom in */
+}
+
+.box4 {
+    width: 50px;
+    height: 50px;
+    background-color: rgb(30, 30, 197);
+    transition: transform 0.3s; /* Smooth animation */
+    padding:0;
+    margin: 0;
+    box-shadow: 2px 2px 10px #333;
+     position: absolute;
+    left: 770px;
+    top: 200px;
+}
+
+/* When mouse hovers over the box */
+.box4:hover {
+    transform: scale(1.1); /* Zoom in */
+}
+
+.box5 {
+    width: 50px;
+    height: 50px;
+    background-color: rgb(30, 30, 197);
+    transition: transform 0.3s; /* Smooth animation */
+    padding:0;
+    margin: 0;
+    box-shadow: 2px 2px 10px #333;
+     position: absolute;
+    left: 1040px;
+    top: 200px;
+}
+
+/* When mouse hovers over the box */
+.box5:hover {
+    transform: scale(1.1); /* Zoom in */
+}
+
+.box6 {
+    width: 50px;
+    height: 50px;
+    background-color: rgb(30, 30, 197);
+    transition: transform 0.3s; /* Smooth animation */
+    padding:0;
+    margin: 0;
+    box-shadow: 2px 2px 10px #333;
+     position: absolute;
+    left: 30px;
+    top: 400px;
+}
+
+/* When mouse hovers over the box */
+.box6:hover {
+    transform: scale(1.1); /* Zoom in */
+}
+
+.box7 {
+    width: 50px;
+    height: 50px;
+    background-color: rgb(30, 30, 197);
+    transition: transform 0.3s; /* Smooth animation */
+    padding:0;
+    margin: 0;
+    box-shadow: 2px 2px 10px #333;
+     position: absolute;
+    left: 290px;
+    top: 400px;
+}
+
+/* When mouse hovers over the box */
+.box7:hover {
+    transform: scale(1.1); /* Zoom in */
+}
+
+.box8 {
+    width: 50px;
+    height: 50px;
+    background-color: rgb(30, 30, 197);
+    transition: transform 0.3s; /* Smooth animation */
+    padding:0;
+    margin: 0;
+    box-shadow: 2px 2px 10px #333;
+     position: absolute;
+    left: 540px;
+    top: 400px;
+}
+
+/* When mouse hovers over the box */
+.box8:hover {
+    transform: scale(1.1); /* Zoom in */
+}
+
+.box9 {
+    width: 50px;
+    height: 50px;
+    background-color: rgb(30, 30, 197);
+    transition: transform 0.3s; /* Smooth animation */
+    padding:0;
+    margin: 0;
+    box-shadow: 2px 2px 10px #333;
+     position: absolute;
+    left: 790px;
+    top: 400px;
+}
+
+/* When mouse hovers over the box */
+.box9:hover {
+    transform: scale(1.1); /* Zoom in */
+}
+
+.box10 {
+    width: 50px;
+    height: 50px;
+    background-color: rgb(30, 30, 197);
+    transition: transform 0.3s; /* Smooth animation */
+    padding:0;
+    margin: 0;
+    box-shadow: 2px 2px 10px #333;
+     position: absolute;
+    left: 1050px;
+    top: 400px;
+}
+
+/* When mouse hovers over the box */
+.box10:hover {
+    transform: scale(1.1); /* Zoom in */
+}
+
+.box11 {
+    width: 50px;
+    height: 50px;
+    background-color: rgb(30, 30, 197);
+    transition: transform 0.3s; /* Smooth animation */
+    padding:0;
+    margin: 0;
+    box-shadow: 2px 2px 10px #333;
+     position: absolute;
+    left: 30px;
+    top: 600px;
+}
+
+/* When mouse hovers over the box */
+.box11:hover {
+    transform: scale(1.1); /* Zoom in */
+}
+
+.box12 {
+    width: 50px;
+    height: 50px;
+    background-color: rgb(30, 30, 197);
+    transition: transform 0.3s; /* Smooth animation */
+    padding:0;
+    margin: 0;
+    box-shadow: 2px 2px 10px #333;
+     position: absolute;
+    left: 300px;
+    top: 600px;
+}
+
+/* When mouse hovers over the box */
+.box12:hover {
+    transform: scale(1.1); /* Zoom in */
+}
+
+.box13 {
+    width: 50px;
+    height: 50px;
+    background-color: rgb(30, 30, 197);
+    transition: transform 0.3s; /* Smooth animation */
+    padding:0;
+    margin: 0;
+    box-shadow: 2px 2px 10px #333;
+     position: absolute;
+    left: 530px;
+    top: 600px;
+}
+
+/* When mouse hovers over the box */
+.box13:hover {
+    transform: scale(1.1); /* Zoom in */
+}
+
+.box14 {
+    width: 50px;
+    height: 50px;
+    background-color: rgb(30, 30, 197);
+    transition: transform 0.3s; /* Smooth animation */
+    padding:0;
+    margin: 0;
+    box-shadow: 2px 2px 10px #333;
+     position: absolute;
+    left: 790px;
+    top: 600px;
+}
+
+/* When mouse hovers over the box */
+.box14:hover {
+    transform: scale(1.1); /* Zoom in */
+}
+
+.box15 {
+    width: 50px;
+    height: 50px;
+    background-color: rgb(30, 30, 197);
+    transition: transform 0.3s; /* Smooth animation */
+    padding:0;
+    margin: 0;
+    box-shadow: 2px 2px 10px #333;
+     position: absolute;
+    left: 1020px;
+    top: 600px;
+}
+
+/* When mouse hovers over the box */
+.box15:hover {
+    transform: scale(1.1); /* Zoom in */
+}
+
+.box16 {
+    width: 50px;
+    height: 50px;
+    background-color: rgb(30, 30, 197);
+    transition: transform 0.3s; /* Smooth animation */
+    padding:0;
+    margin: 0;
+    box-shadow: 2px 2px 10px #333;
+     position: absolute;
+    left: 30px;
+    top: 800px;
+}
+
+/* When mouse hovers over the box */
+.box16:hover {
+    transform: scale(1.1); /* Zoom in */
+}
+
+.box17 {
+    width: 50px;
+    height: 50px;
+    background-color: rgb(30, 30, 197);
+    transition: transform 0.3s; /* Smooth animation */
+    padding:0;
+    margin: 0;
+    box-shadow: 2px 2px 10px #333;
+     position: absolute;
+    left: 260px;
+    top: 800px;
+}
+
+/* When mouse hovers over the box */
+.box17:hover {
+    transform: scale(1.1); /* Zoom in */
+}
+
+.box18 {
+    width: 50px;
+    height: 50px;
+    background-color: rgb(30, 30, 197);
+    transition: transform 0.3s; /* Smooth animation */
+    padding:0;
+    margin: 0;
+    box-shadow: 2px 2px 10px #333;
+     position: absolute;
+    left: 520px;
+    top: 800px;
+}
+
+/* When mouse hovers over the box */
+.box18:hover {
+    transform: scale(1.1); /* Zoom in */
+}
+
+.box19 {
+    width: 50px;
+    height: 50px;
+    background-color: rgb(30, 30, 197);
+    transition: transform 0.3s; /* Smooth animation */
+    padding:0;
+    margin: 0;
+    box-shadow: 2px 2px 10px #333;
+     position: absolute;
+    left: 780px;
+    top: 800px;
+}
+
+/* When mouse hovers over the box */
+.box19:hover {
+    transform: scale(1.1); /* Zoom in */
+}
+
+.box20 {
+    width: 50px;
+    height: 50px;
+    background-color: rgb(30, 30, 197);
+    transition: transform 0.3s; /* Smooth animation */
+    padding:0;
+    margin: 0;
+    box-shadow: 2px 2px 10px #333;
+     position: absolute;
+    left: 1035px;
+    top: 800px;
+}
+
+/* When mouse hovers over the box */
+.box20:hover {
+    transform: scale(1.1); /* Zoom in */
+}
+
+.box21 {
+    width: 50px;
+    height: 50px;
+    background-color: rgb(30, 30, 197);
+    transition: transform 0.3s; /* Smooth animation */
+    padding:0;
+    margin: 0;
+    box-shadow: 2px 2px 10px #333;
+     position: absolute;
+    left: 10px;
+    top: 1000px;
+}
+
+/* When mouse hovers over the box */
+.box21:hover {
+    transform: scale(1.1); /* Zoom in */
+}
+
+.box22 {
+    width: 50px;
+    height: 50px;
+    background-color: rgb(30, 30, 197);
+    transition: transform 0.3s; /* Smooth animation */
+    padding:0;
+    margin: 0;
+    box-shadow: 2px 2px 10px #333;
+     position: absolute;
+    left: 280px;
+    top: 1000px;
+}
+
+/* When mouse hovers over the box */
+.box22:hover {
+    transform: scale(1.1); /* Zoom in */
+}
+
+.box23 {
+    width: 50px;
+    height: 50px;
+    background-color: rgb(30, 30, 197);
+    transition: transform 0.3s; /* Smooth animation */
+    padding:0;
+    margin: 0;
+    box-shadow: 2px 2px 10px #333;
+     position: absolute;
+    left: 545px;
+    top: 1000px;
+}
+
+/* When mouse hovers over the box */
+.box23:hover {
+    transform: scale(1.1); /* Zoom in */
+}
+
+.box24 {
+    width: 50px;
+    height: 50px;
+    background-color: rgb(30, 30, 197);
+    transition: transform 0.3s; /* Smooth animation */
+    padding:0;
+    margin: 0;
+    box-shadow: 2px 2px 10px #333;
+     position: absolute;
+    left: 770px;
+    top: 1000px;
+}
+
+/* When mouse hovers over the box */
+.box24:hover {
+    transform: scale(1.1); /* Zoom in */
+}
+
+.box25 {
+    width: 50px;
+    height: 50px;
+    background-color: rgb(30, 30, 197);
+    transition: transform 0.3s; /* Smooth animation */
+    padding:0;
+    margin: 0;
+    box-shadow: 2px 2px 10px #333;
+     position: absolute;
+    left: 1050px;
+    top: 1000px;
+}
+
+/* When mouse hovers over the box */
+.box25:hover {
+    transform: scale(1.1); /* Zoom in */
+}
+
+.box26 {
+    width: 50px;
+    height: 50px;
+    background-color: rgb(30, 30, 197);
+    transition: transform 0.3s; /* Smooth animation */
+    padding:0;
+    margin: 0;
+    box-shadow: 2px 2px 10px #333;
+     position: absolute;
+    left: 30px;
+    top: 1200px;
+}
+
+/* When mouse hovers over the box */
+.box26:hover {
+    transform: scale(1.1); /* Zoom in */
+}
+
+.box27 {
+    width: 50px;
+    height: 50px;
+    background-color: rgb(30, 30, 197);
+    transition: transform 0.3s; /* Smooth animation */
+    padding:0;
+    margin: 0;
+    box-shadow: 2px 2px 10px #333;
+     position: absolute;
+    left: 280px;
+    top: 1200px;
+}
+
+/* When mouse hovers over the box */
+.box27:hover {
+    transform: scale(1.1); /* Zoom in */
+}
+
+.box28 {
+    width: 50px;
+    height: 50px;
+    background-color: rgb(30, 30, 197);
+    transition: transform 0.3s; /* Smooth animation */
+    padding:0;
+    margin: 0;
+    box-shadow: 2px 2px 10px #333;
+     position: absolute;
+    left: 530px;
+    top: 1200px;
+}
+
+/* When mouse hovers over the box */
+.box28:hover {
+    transform: scale(1.1); /* Zoom in */
+}
+
+.box29 {
+    width: 50px;
+    height: 50px;
+    background-color: rgb(30, 30, 197);
+    transition: transform 0.3s; /* Smooth animation */
+    padding:0;
+    margin: 0;
+    box-shadow: 2px 2px 10px #333;
+     position: absolute;
+    left: 780px;
+    top: 1200px;
+}
+
+/* When mouse hovers over the box */
+.box29:hover {
+    transform: scale(1.1); /* Zoom in */
+}
+
+.box30 {
+    width: 50px;
+    height: 50px;
+    background-color: rgb(30, 30, 197);
+    transition: transform 0.3s; /* Smooth animation */
+    padding:0;
+    margin: 0;
+    box-shadow: 2px 2px 10px #333;
+     position: absolute;
+    left: 1030px;
+    top: 1200px;
+}
+
+/* When mouse hovers over the box */
+.box30:hover {
+    transform: scale(1.1); /* Zoom in */
+}
+ 
+.box31 {
+    width: 50px;
+    height: 50px;
+    background-color: rgb(30, 30, 197);
+    transition: transform 0.3s; /* Smooth animation */
+    padding:0;
+    margin: 0;
+    box-shadow: 2px 2px 10px #333;
+     position: absolute;
+    left: 30px;
+    top: 1400px;
+}
+
+/* When mouse hovers over the box */
+.box31:hover {
+    transform: scale(1.1); /* Zoom in */
+}
+ .box32{
+    width: 50px;
+    height: 50px;
+    background-color: rgb(30, 30, 197);
+    transition: transform 0.3s; /* Smooth animation */
+    padding:0;
+    margin: 0;
+    box-shadow: 2px 2px 10px #333;
+     position: absolute;
+    left: 300px;
+    top: 1400px;
+}
+
+/* When mouse hovers over the box */
+.box32:hover {
+    transform: scale(1.1); /* Zoom in */
+}
+
+.box33{
+    width: 50px;
+    height: 50px;
+    background-color: rgb(30, 30, 197);
+    transition: transform 0.3s; /* Smooth animation */
+    padding:0;
+    margin: 0;
+    box-shadow: 2px 2px 10px #333;
+     position: absolute;
+    left: 560px;
+    top: 1400px;
+}
+
+/* When mouse hovers over the box */
+.box33:hover {
+    transform: scale(1.1); /* Zoom in */
+}
+
+.box34{
+    width: 50px;
+    height: 50px;
+    background-color: rgb(30, 30, 197);
+    transition: transform 0.3s; /* Smooth animation */
+    padding:0;
+    margin: 0;
+    box-shadow: 2px 2px 10px #333;
+     position: absolute;
+    left: 790px;
+    top: 1400px;
+}
+
+/* When mouse hovers over the box */
+.box34:hover {
+    transform: scale(1.1); /* Zoom in */
+}
+
+.box35{
+    width: 50px;
+    height: 50px;
+    background-color: rgb(30, 30, 197);
+    transition: transform 0.3s; /* Smooth animation */
+    padding:0;
+    margin: 0;
+    box-shadow: 2px 2px 10px #333;
+     position: absolute;
+    left: 1030px;
+    top: 1400px;
+}
+
+/* When mouse hovers over the box */
+.box35:hover {
+    transform: scale(1.1); /* Zoom in */
+}
+
+.box36{
+    width: 50px;
+    height: 50px;
+    background-color: rgb(30, 30, 197);
+    transition: transform 0.3s; /* Smooth animation */
+    padding:0;
+    margin: 0;
+    box-shadow: 2px 2px 10px #333;
+     position: absolute;
+    left: 30px;
+    top: 1600px;
+}
+
+/* When mouse hovers over the box */
+.box36:hover {
+    transform: scale(1.1); /* Zoom in */
+}
+
+.box37{
+    width: 50px;
+    height: 50px;
+    background-color: rgb(30, 30, 197);
+    transition: transform 0.3s; /* Smooth animation */
+    padding:0;
+    margin: 0;
+    box-shadow: 2px 2px 10px #333;
+     position: absolute;
+    left: 300px;
+    top: 1600px;
+}
+
+/* When mouse hovers over the box */
+.box37:hover {
+    transform: scale(1.1); /* Zoom in */
+}
+
+.box38{
+    width: 50px;
+    height: 50px;
+    background-color: rgb(30, 30, 197);
+    transition: transform 0.3s; /* Smooth animation */
+    padding:0;
+    margin: 0;
+    box-shadow: 2px 2px 10px #333;
+     position: absolute;
+    left: 550px;
+    top: 1600px;
+}
+
+/* When mouse hovers over the box */
+.box38:hover {
+    transform: scale(1.1); /* Zoom in */
+}
+
+.box39{
+    width: 50px;
+    height: 50px;
+    background-color: rgb(30, 30, 197);
+    transition: transform 0.3s; /* Smooth animation */
+    padding:0;
+    margin: 0;
+    box-shadow: 2px 2px 10px #333;
+     position: absolute;
+    left: 800px;
+    top: 1600px;
+}
+
+/* When mouse hovers over the box */
+.box39:hover {
+    transform: scale(1.1); /* Zoom in */
+}
+
+.box40{
+    width: 50px;
+    height: 50px;
+    background-color: rgb(30, 30, 197);
+    transition: transform 0.3s; /* Smooth animation */
+    padding:0;
+    margin: 0;
+    box-shadow: 2px 2px 10px #333;
+     position: absolute;
+    left: 1050px;
+    top: 1600px;
+}
+
+/* When mouse hovers over the box */
+.box40:hover {
+    transform: scale(1.1); /* Zoom in */
+}
+
+.box41{
+    width: 50px;
+    height: 50px;
+    background-color: rgb(30, 30, 197);
+    transition: transform 0.3s; /* Smooth animation */
+    padding:0;
+    margin: 0;
+    box-shadow: 2px 2px 10px #333;
+     position: absolute;
+    left: 30px;
+    top: 1800px;
+}
+
+/* When mouse hovers over the box */
+.box41:hover {
+    transform: scale(1.1); /* Zoom in */
+}
+
+.box42{
+    width: 50px;
+    height: 50px;
+    background-color: rgb(30, 30, 197);
+    transition: transform 0.3s; /* Smooth animation */
+    padding:0;
+    margin: 0;
+    box-shadow: 2px 2px 10px #333;
+     position: absolute;
+    left: 300px;
+    top: 1800px;
+}
+
+/* When mouse hovers over the box */
+.box42:hover {
+    transform: scale(1.1); /* Zoom in */
+}
+
+.box43{
+    width: 50px;
+    height: 50px;
+    background-color: rgb(30, 30, 197);
+    transition: transform 0.3s; /* Smooth animation */
+    padding:0;
+    margin: 0;
+    box-shadow: 2px 2px 10px #333;
+     position: absolute;
+    left: 550px;
+    top: 1800px;
+}
+
+/* When mouse hovers over the box */
+.box43:hover {
+    transform: scale(1.1); /* Zoom in */
+}
+
+.box44{
+    width: 50px;
+    height: 50px;
+    background-color: rgb(30, 30, 197);
+    transition: transform 0.3s; /* Smooth animation */
+    padding:0;
+    margin: 0;
+    box-shadow: 2px 2px 10px #333;
+     position: absolute;
+    left: 800px;
+    top: 1800px;
+}
+
+/* When mouse hovers over the box */
+.box44:hover {
+    transform: scale(1.1); /* Zoom in */
+}
+
+.box45{
+    width: 50px;
+    height: 50px;
+    background-color: rgb(30, 30, 197);
+    transition: transform 0.3s; /* Smooth animation */
+    padding:0;
+    margin: 0;
+    box-shadow: 2px 2px 10px #333;
+     position: absolute;
+    left: 1020px;
+    top: 1800px;
+}
+
+/* When mouse hovers over the box */
+.box45:hover {
+    transform: scale(1.1); /* Zoom in */
+}
+
+.box46{
+    width: 50px;
+    height: 50px;
+    background-color: rgb(30, 30, 197);
+    transition: transform 0.3s; /* Smooth animation */
+    padding:0;
+    margin: 0;
+    box-shadow: 2px 2px 10px #333;
+     position: absolute;
+    left: 30px;
+    top: 2000px;
+}
+
+/* When mouse hovers over the box */
+.box46:hover {
+    transform: scale(1.1); /* Zoom in */
+}
+
+.box47{
+    width: 50px;
+    height: 50px;
+    background-color: rgb(30, 30, 197);
+    transition: transform 0.3s; /* Smooth animation */
+    padding:0;
+    margin: 0;
+    box-shadow: 2px 2px 10px #333;
+     position: absolute;
+    left: 300px;
+    top: 2000px;
+}
+
+/* When mouse hovers over the box */
+.box47:hover {
+    transform: scale(1.1); /* Zoom in */
+}
+
+.box48{
+    width: 50px;
+    height: 50px;
+    background-color: rgb(30, 30, 197);
+    transition: transform 0.3s; /* Smooth animation */
+    padding:0;
+    margin: 0;
+    box-shadow: 2px 2px 10px #333;
+     position: absolute;
+    left: 550px;
+    top: 2000px;
+}
+
+/* When mouse hovers over the box */
+.box48:hover {
+    transform: scale(1.1); /* Zoom in */
+}
+
+.box49{
+    width: 50px;
+    height: 50px;
+    background-color: rgb(30, 30, 197);
+    transition: transform 0.3s; /* Smooth animation */
+    padding:0;
+    margin: 0;
+    box-shadow: 2px 2px 10px #333;
+     position: absolute;
+    left: 770px;
+    top: 2000px;
+}
+
+/* When mouse hovers over the box */
+.box49:hover {
+    transform: scale(1.1); /* Zoom in */
+}
+
+.box50{
+    width: 50px;
+    height: 50px;
+    background-color: rgb(30, 30, 197);
+    transition: transform 0.3s; /* Smooth animation */
+    padding:0;
+    margin: 0;
+    box-shadow: 2px 2px 10px #333;
+     position: absolute;
+    left: 1020px;
+    top: 2000px;
+}
+
+/* When mouse hovers over the box */
+.box50:hover {
+    transform: scale(1.1); /* Zoom in */
+}
+
+.box51{
+    width: 50px;
+    height: 50px;
+    background-color: rgb(30, 30, 197);
+    transition: transform 0.3s; /* Smooth animation */
+    padding:0;
+    margin: 0;
+    box-shadow: 2px 2px 10px #333;
+     position: absolute;
+    left: 30px;
+    top: 200px;
+}
+
+/* When mouse hovers over the box */
+.box51:hover {
+    transform: scale(1.1); /* Zoom in */
+}
+
+.box52{
+    width: 50px;
+    height: 50px;
+    background-color: rgb(30, 30, 197);
+    transition: transform 0.3s; /* Smooth animation */
+    padding:0;
+    margin: 0;
+    box-shadow: 2px 2px 10px #333;
+     position: absolute;
+    left: 260px;
+    top: 200px;
+}
+
+/* When mouse hovers over the box */
+.box52:hover {
+    transform: scale(1.1); /* Zoom in */
+}
+
+.box53{
+    width: 50px;
+    height: 50px;
+    background-color: rgb(30, 30, 197);
+    transition: transform 0.3s; /* Smooth animation */
+    padding:0;
+    margin: 0;
+    box-shadow: 2px 2px 10px #333;
+     position: absolute;
+    left: 530px;
+    top: 200px;
+}
+
+/* When mouse hovers over the box */
+.box53:hover {
+    transform: scale(1.1); /* Zoom in */
+}
+
+.box54{
+    width: 50px;
+    height: 50px;
+    background-color: rgb(30, 30, 197);
+    transition: transform 0.3s; /* Smooth animation */
+    padding:0;
+    margin: 0;
+    box-shadow: 2px 2px 10px #333;
+     position: absolute;
+    left: 780px;
+    top: 200px;
+}
+
+/* When mouse hovers over the box */
+.box54:hover {
+    transform: scale(1.1); /* Zoom in */
+}
+
+.box55{
+    width: 50px;
+    height: 50px;
+    background-color: rgb(30, 30, 197);
+    transition: transform 0.3s; /* Smooth animation */
+    padding:0;
+    margin: 0;
+    box-shadow: 2px 2px 10px #333;
+     position: absolute;
+    left: 1030px;
+    top: 200px;
+}
+
+/* When mouse hovers over the box */
+.box55:hover {
+    transform: scale(1.1); /* Zoom in */
+}
+
+.box56{
+    width: 50px;
+    height: 50px;
+    background-color: rgb(30, 30, 197);
+    transition: transform 0.3s; /* Smooth animation */
+    padding:0;
+    margin: 0;
+    box-shadow: 2px 2px 10px #333;
+     position: absolute;
+    left: 30px;
+    top: 400px;
+}
+
+/* When mouse hovers over the box */
+.box56:hover {
+    transform: scale(1.1); /* Zoom in */
+}
+
+.box57{
+    width: 50px;
+    height: 50px;
+    background-color: rgb(30, 30, 197);
+    transition: transform 0.3s; /* Smooth animation */
+    padding:0;
+    margin: 0;
+    box-shadow: 2px 2px 10px #333;
+     position: absolute;
+    left: 250px;
+    top: 400px;
+}
+
+/* When mouse hovers over the box */
+.box57:hover {
+    transform: scale(1.1); /* Zoom in */
+}
+
+.box58{
+    width: 50px;
+    height: 50px;
+    background-color: rgb(30, 30, 197);
+    transition: transform 0.3s; /* Smooth animation */
+    padding:0;
+    margin: 0;
+    box-shadow: 2px 2px 10px #333;
+     position: absolute;
+    left: 500px;
+    top: 400px;
+}
+
+/* When mouse hovers over the box */
+.box58:hover {
+    transform: scale(1.1); /* Zoom in */
+}
+
+.box59{
+    width: 50px;
+    height: 50px;
+    background-color: rgb(30, 30, 197);
+    transition: transform 0.3s; /* Smooth animation */
+    padding:0;
+    margin: 0;
+    box-shadow: 2px 2px 10px #333;
+     position: absolute;
+    left: 770px;
+    top: 400px;
+}
+
+/* When mouse hovers over the box */
+.box59:hover {
+    transform: scale(1.1); /* Zoom in */
+}
+
+.box60{
+    width: 50px;
+    height: 50px;
+    background-color: rgb(30, 30, 197);
+    transition: transform 0.3s; /* Smooth animation */
+    padding:0;
+    margin: 0;
+    box-shadow: 2px 2px 10px #333;
+     position: absolute;
+    left: 1020px;
+    top: 400px;
+}
+
+/* When mouse hovers over the box */
+.box60:hover {
+    transform: scale(1.1); /* Zoom in */
+}
+
+.box61{
+    width: 50px;
+    height: 50px;
+    background-color: rgb(30, 30, 197);
+    transition: transform 0.3s; /* Smooth animation */
+    padding:0;
+    margin: 0;
+    box-shadow: 2px 2px 10px #333;
+     position: absolute;
+    left: 30px;
+    top: 600px;
+}
+
+/* When mouse hovers over the box */
+.box61:hover {
+    transform: scale(1.1); /* Zoom in */
+}
+
+.box62{
+    width: 50px;
+    height: 50px;
+    background-color: rgb(30, 30, 197);
+    transition: transform 0.3s; /* Smooth animation */
+    padding:0;
+    margin: 0;
+    box-shadow: 2px 2px 10px #333;
+     position: absolute;
+    left: 300px;
+    top: 600px;
+}
+
+/* When mouse hovers over the box */
+.box62:hover {
+    transform: scale(1.1); /* Zoom in */
+}
+
+.box63{
+    width: 50px;
+    height: 50px;
+    background-color: rgb(30, 30, 197);
+    transition: transform 0.3s; /* Smooth animation */
+    padding:0;
+    margin: 0;
+    box-shadow: 2px 2px 10px #333;
+     position: absolute;
+    left: 560px;
+    top: 600px;
+}
+
+/* When mouse hovers over the box */
+.box63:hover {
+    transform: scale(1.1); /* Zoom in */
+}
+
+.box64{
+    width: 50px;
+    height: 50px;
+    background-color: rgb(30, 30, 197);
+    transition: transform 0.3s; /* Smooth animation */
+    padding:0;
+    margin: 0;
+    box-shadow: 2px 2px 10px #333;
+     position: absolute;
+    left: 820px;
+    top: 600px;
+}
+
+/* When mouse hovers over the box */
+.box64:hover {
+    transform: scale(1.1); /* Zoom in */
+}
+
+.box65{
+    width: 50px;
+    height: 50px;
+    background-color: rgb(30, 30, 197);
+    transition: transform 0.3s; /* Smooth animation */
+    padding:0;
+    margin: 0;
+    box-shadow: 2px 2px 10px #333;
+     position: absolute;
+    left: 1060px;
+    top: 600px;
+}
+
+/* When mouse hovers over the box */
+.box65:hover {
+    transform: scale(1.1); /* Zoom in */
+}
+
+.box66{
+    width: 50px;
+    height: 50px;
+    background-color: rgb(30, 30, 197);
+    transition: transform 0.3s; /* Smooth animation */
+    padding:0;
+    margin: 0;
+    box-shadow: 2px 2px 10px #333;
+     position: absolute;
+    left: 30px;
+    top: 800px;
+}
+
+/* When mouse hovers over the box */
+.box66:hover {
+    transform: scale(1.1); /* Zoom in */
+}
+
+.box67{
+    width: 50px;
+    height: 50px;
+    background-color: rgb(30, 30, 197);
+    transition: transform 0.3s; /* Smooth animation */
+    padding:0;
+    margin: 0;
+    box-shadow: 2px 2px 10px #333;
+     position: absolute;
+    left: 300px;
+    top: 800px;
+}
+
+/* When mouse hovers over the box */
+.box67:hover {
+    transform: scale(1.1); /* Zoom in */
+}
+
+.box68{
+    width: 50px;
+    height: 50px;
+    background-color: rgb(30, 30, 197);
+    transition: transform 0.3s; /* Smooth animation */
+    padding:0;
+    margin: 0;
+    box-shadow: 2px 2px 10px #333;
+     position: absolute;
+    left: 570px;
+    top: 800px;
+}
+
+/* When mouse hovers over the box */
+.box68:hover {
+    transform: scale(1.1); /* Zoom in */
+}
+
+.box69{
+    width: 50px;
+    height: 50px;
+    background-color: rgb(30, 30, 197);
+    transition: transform 0.3s; /* Smooth animation */
+    padding:0;
+    margin: 0;
+    box-shadow: 2px 2px 10px #333;
+     position: absolute;
+    left: 800px;
+    top: 800px;
+}
+
+/* When mouse hovers over the box */
+.box69:hover {
+    transform: scale(1.1); /* Zoom in */
+}
+
+.box70{
+    width: 50px;
+    height: 50px;
+    background-color: rgb(30, 30, 197);
+    transition: transform 0.3s; /* Smooth animation */
+    padding:0;
+    margin: 0;
+    box-shadow: 2px 2px 10px #333;
+     position: absolute;
+    left: 1050px;
+    top: 800px;
+}
+
+/* When mouse hovers over the box */
+.box70:hover {
+    transform: scale(1.1); /* Zoom in */
+}
+
+.box71{
+    width: 50px;
+    height: 50px;
+    background-color: rgb(30, 30, 197);
+    transition: transform 0.3s; /* Smooth animation */
+    padding:0;
+    margin: 0;
+    box-shadow: 2px 2px 10px #333;
+     position: absolute;
+    left: 30px;
+    top: 1000px;
+}
+
+/* When mouse hovers over the box */
+.box71:hover {
+    transform: scale(1.1); /* Zoom in */
+}
+
+.box72{
+    width: 50px;
+    height: 50px;
+    background-color: rgb(30, 30, 197);
+    transition: transform 0.3s; /* Smooth animation */
+    padding:0;
+    margin: 0;
+    box-shadow: 2px 2px 10px #333;
+     position: absolute;
+    left: 270px;
+    top: 1000px;
+}
+
+/* When mouse hovers over the box */
+.box72:hover {
+    transform: scale(1.1); /* Zoom in */
+}
+
+.box73{
+    width: 50px;
+    height: 50px;
+    background-color: rgb(30, 30, 197);
+    transition: transform 0.3s; /* Smooth animation */
+    padding:0;
+    margin: 0;
+    box-shadow: 2px 2px 10px #333;
+     position: absolute;
+    left: 550px;
+    top: 1000px;
+}
+
+/* When mouse hovers over the box */
+.box73:hover {
+    transform: scale(1.1); /* Zoom in */
+}
+
+.box74{
+    width: 50px;
+    height: 50px;
+    background-color: rgb(30, 30, 197);
+    transition: transform 0.3s; /* Smooth animation */
+    padding:0;
+    margin: 0;
+    box-shadow: 2px 2px 10px #333;
+     position: absolute;
+    left: 800px;
+    top: 1000px;
+}
+
+/* When mouse hovers over the box */
+.box74:hover {
+    transform: scale(1.1); /* Zoom in */
+}
+
+.box75{
+    width: 50px;
+    height: 50px;
+    background-color: rgb(30, 30, 197);
+    transition: transform 0.3s; /* Smooth animation */
+    padding:0;
+    margin: 0;
+    box-shadow: 2px 2px 10px #333;
+     position: absolute;
+    left: 1050px;
+    top: 1000px;
+}
+
+/* When mouse hovers over the box */
+.box75:hover {
+    transform: scale(1.1); /* Zoom in */
+}
+
+.box76{
+    width: 50px;
+    height: 50px;
+    background-color: rgb(30, 30, 197);
+    transition: transform 0.3s; /* Smooth animation */
+    padding:0;
+    margin: 0;
+    box-shadow: 2px 2px 10px #333;
+     position: absolute;
+    left: 30px;
+    top: 1200px;
+}
+
+/* When mouse hovers over the box */
+.box76:hover {
+    transform: scale(1.1); /* Zoom in */
+}
+
+.box77{
+    width: 50px;
+    height: 50px;
+    background-color: rgb(30, 30, 197);
+    transition: transform 0.3s; /* Smooth animation */
+    padding:0;
+    margin: 0;
+    box-shadow: 2px 2px 10px #333;
+     position: absolute;
+    left: 290px;
+    top: 1200px;
+}
+
+/* When mouse hovers over the box */
+.box77:hover {
+    transform: scale(1.1); /* Zoom in */
+}
+
+.box78{
+    width: 50px;
+    height: 50px;
+    background-color: rgb(30, 30, 197);
+    transition: transform 0.3s; /* Smooth animation */
+    padding:0;
+    margin: 0;
+    box-shadow: 2px 2px 10px #333;
+     position: absolute;
+    left: 550px;
+    top: 1200px;
+}
+
+/* When mouse hovers over the box */
+.box78:hover {
+    transform: scale(1.1); /* Zoom in */
+}
+
+.box79{
+    width: 50px;
+    height: 50px;
+    background-color: rgb(30, 30, 197);
+    transition: transform 0.3s; /* Smooth animation */
+    padding:0;
+    margin: 0;
+    box-shadow: 2px 2px 10px #333;
+     position: absolute;
+    left: 790px;
+    top: 1200px;
+}
+
+/* When mouse hovers over the box */
+.box79:hover {
+    transform: scale(1.1); /* Zoom in */
+}
+
+.box80{
+    width: 50px;
+    height: 50px;
+    background-color: rgb(30, 30, 197);
+    transition: transform 0.3s; /* Smooth animation */
+    padding:0;
+    margin: 0;
+    box-shadow: 2px 2px 10px #333;
+     position: absolute;
+    left: 1040px;
+    top: 1200px;
+}
+
+/* When mouse hovers over the box */
+.box80:hover {
+    transform: scale(1.1); /* Zoom in */
+}
+
+.box81{
+    width: 50px;
+    height: 50px;
+    background-color: rgb(30, 30, 197);
+    transition: transform 0.3s; /* Smooth animation */
+    padding:0;
+    margin: 0;
+    box-shadow: 2px 2px 10px #333;
+     position: absolute;
+    left: 30px;
+    top: 1400px;
+}
+
+/* When mouse hovers over the box */
+.box81:hover {
+    transform: scale(1.1); /* Zoom in */
+}
+
+.box82{
+    width: 50px;
+    height: 50px;
+    background-color: rgb(30, 30, 197);
+    transition: transform 0.3s; /* Smooth animation */
+    padding:0;
+    margin: 0;
+    box-shadow: 2px 2px 10px #333;
+     position: absolute;
+    left: 300px;
+    top: 1400px;
+}
+
+/* When mouse hovers over the box */
+.box82:hover {
+    transform: scale(1.1); /* Zoom in */
+}
+
+.box83{
+    width: 50px;
+    height: 50px;
+    background-color: rgb(30, 30, 197);
+    transition: transform 0.3s; /* Smooth animation */
+    padding:0;
+    margin: 0;
+    box-shadow: 2px 2px 10px #333;
+     position: absolute;
+    left: 550px;
+    top: 1400px;
+}
+
+/* When mouse hovers over the box */
+.box83:hover {
+    transform: scale(1.1); /* Zoom in */
+}
+
+.box84{
+    width: 50px;
+    height: 50px;
+    background-color: rgb(30, 30, 197);
+    transition: transform 0.3s; /* Smooth animation */
+    padding:0;
+    margin: 0;
+    box-shadow: 2px 2px 10px #333;
+     position: absolute;
+    left: 770px;
+    top: 1400px;
+}
+
+/* When mouse hovers over the box */
+.box84:hover {
+    transform: scale(1.1); /* Zoom in */
+}
+
+.box85{
+    width: 50px;
+    height: 50px;
+    background-color: rgb(30, 30, 197);
+    transition: transform 0.3s; /* Smooth animation */
+    padding:0;
+    margin: 0;
+    box-shadow: 2px 2px 10px #333;
+     position: absolute;
+    left: 1020px;
+    top: 1400px;
+}
+
+/* When mouse hovers over the box */
+.box85:hover {
+    transform: scale(1.1); /* Zoom in */
+}
+
+.box86{
+    width: 50px;
+    height: 50px;
+    background-color: rgb(30, 30, 197);
+    transition: transform 0.3s; /* Smooth animation */
+    padding:0;
+    margin: 0;
+    box-shadow: 2px 2px 10px #333;
+     position: absolute;
+    left: 30px;
+    top: 1600px;
+}
+
+/* When mouse hovers over the box */
+.box86:hover {
+    transform: scale(1.1); /* Zoom in */
+}
+
+.box87{
+    width: 50px;
+    height: 50px;
+    background-color: rgb(30, 30, 197);
+    transition: transform 0.3s; /* Smooth animation */
+    padding:0;
+    margin: 0;
+    box-shadow: 2px 2px 10px #333;
+     position: absolute;
+    left: 300px;
+    top: 1600px;
+}
+
+/* When mouse hovers over the box */
+.box87:hover {
+    transform: scale(1.1); /* Zoom in */
+}
+
+.box88{
+    width: 50px;
+    height: 50px;
+    background-color: rgb(30, 30, 197);
+    transition: transform 0.3s; /* Smooth animation */
+    padding:0;
+    margin: 0;
+    box-shadow: 2px 2px 10px #333;
+     position: absolute;
+    left: 550px;
+    top: 1600px;
+}
+
+/* When mouse hovers over the box */
+.box88:hover {
+    transform: scale(1.1); /* Zoom in */
+}
+
+.box89{
+    width: 50px;
+    height: 50px;
+    background-color: rgb(30, 30, 197);
+    transition: transform 0.3s; /* Smooth animation */
+    padding:0;
+    margin: 0;
+    box-shadow: 2px 2px 10px #333;
+     position: absolute;
+    left: 810px;
+    top: 1600px;
+}
+
+/* When mouse hovers over the box */
+.box89:hover {
+    transform: scale(1.1); /* Zoom in */
+}
+
+.box90{
+    width: 50px;
+    height: 50px;
+    background-color: rgb(30, 30, 197);
+    transition: transform 0.3s; /* Smooth animation */
+    padding:0;
+    margin: 0;
+    box-shadow: 2px 2px 10px #333;
+     position: absolute;
+    left: 1090px;
+    top: 1600px;
+}
+
+/* When mouse hovers over the box */
+.box90:hover {
+    transform: scale(1.1); /* Zoom in */
+}
+
+.box91{
+    width: 50px;
+    height: 50px;
+    background-color: rgb(30, 30, 197);
+    transition: transform 0.3s; /* Smooth animation */
+    padding:0;
+    margin: 0;
+    box-shadow: 2px 2px 10px #333;
+     position: absolute;
+    left: 30px;
+    top: 1800px;
+}
+
+/* When mouse hovers over the box */
+.box91:hover {
+    transform: scale(1.1); /* Zoom in */
+}
+
+.box92{
+    width: 50px;
+    height: 50px;
+    background-color: rgb(30, 30, 197);
+    transition: transform 0.3s; /* Smooth animation */
+    padding:0;
+    margin: 0;
+    box-shadow: 2px 2px 10px #333;
+     position: absolute;
+    left: 300px;
+    top: 1800px;
+}
+
+/* When mouse hovers over the box */
+.box92:hover {
+    transform: scale(1.1); /* Zoom in */
+}
+
+.box93{
+    width: 50px;
+    height: 50px;
+    background-color: rgb(30, 30, 197);
+    transition: transform 0.3s; /* Smooth animation */
+    padding:0;
+    margin: 0;
+    box-shadow: 2px 2px 10px #333;
+     position: absolute;
+    left: 550px;
+    top: 1800px;
+}
+
+/* When mouse hovers over the box */
+.box93:hover {
+    transform: scale(1.1); /* Zoom in */
+}
+
+.box94{
+    width: 50px;
+    height: 50px;
+    background-color: rgb(30, 30, 197);
+    transition: transform 0.3s; /* Smooth animation */
+    padding:0;
+    margin: 0;
+    box-shadow: 2px 2px 10px #333;
+     position: absolute;
+    left: 830px;
+    top: 1800px;
+}
+
+/* When mouse hovers over the box */
+.box94:hover {
+    transform: scale(1.1); /* Zoom in */
+}
+
+.box95{
+    width: 50px;
+    height: 50px;
+    background-color: rgb(30, 30, 197);
+    transition: transform 0.3s; /* Smooth animation */
+    padding:0;
+    margin: 0;
+    box-shadow: 2px 2px 10px #333;
+     position: absolute;
+    left: 1050px;
+    top: 1800px;
+}
+
+/* When mouse hovers over the box */
+.box95:hover {
+    transform: scale(1.1); /* Zoom in */
+}
+
+.box96{
+    width: 50px;
+    height: 50px;
+    background-color: rgb(30, 30, 197);
+    transition: transform 0.3s; /* Smooth animation */
+    padding:0;
+    margin: 0;
+    box-shadow: 2px 2px 10px #333;
+     position: absolute;
+    left: 30px;
+    top: 2000px;
+}
+
+/* When mouse hovers over the box */
+.box96:hover {
+    transform: scale(1.1); /* Zoom in */
+}
+
+.box97{
+    width: 50px;
+    height: 50px;
+    background-color: rgb(30, 30, 197);
+    transition: transform 0.3s; /* Smooth animation */
+    padding:0;
+    margin: 0;
+    box-shadow: 2px 2px 10px #333;
+     position: absolute;
+    left: 280px;
+    top: 2000px;
+}
+
+/* When mouse hovers over the box */
+.box97:hover {
+    transform: scale(1.1); /* Zoom in */
+}
+
+.box98{
+    width: 50px;
+    height: 50px;
+    background-color: rgb(30, 30, 197);
+    transition: transform 0.3s; /* Smooth animation */
+    padding:0;
+    margin: 0;
+    box-shadow: 2px 2px 10px #333;
+     position: absolute;
+    left: 520px;
+    top: 2000px;
+}
+
+/* When mouse hovers over the box */
+.box98:hover {
+    transform: scale(1.1); /* Zoom in */
+}
+
+.box99{
+    width: 50px;
+    height: 50px;
+    background-color: rgb(30, 30, 197);
+    transition: transform 0.3s; /* Smooth animation */
+    padding:0;
+    margin: 0;
+    box-shadow: 2px 2px 10px #333;
+     position: absolute;
+    left: 780px;
+    top: 2000px;
+}
+
+/* When mouse hovers over the box */
+.box99:hover {
+    transform: scale(1.1); /* Zoom in */
+}
+
+.box100{
+    width: 50px;
+    height: 50px;
+    background-color: rgb(30, 30, 197);
+    transition: transform 0.3s; /* Smooth animation */
+    padding:0;
+    margin: 0;
+    box-shadow: 2px 2px 10px #333;
+     position: absolute;
+    left: 1040px;
+    top: 2000px;
+}
+
+/* When mouse hovers over the box */
+.box100:hover {
+    transform: scale(1.1); /* Zoom in */
+}
+
+
+
+
+.box101{
+    width: 100px;
+    height: 30px;
+    background-color:rgb(9, 253, 49);
+    transition: transform 0.3s; /* Smooth animation */
+    padding:0;
+    margin: 0;
+    box-shadow: 2px 2px 10px #333;
+     position: absolute;
+    left: 1020px;
+    top: 2170px;
+    
+}
+
+/* When mouse hovers over the box */
+.box101:hover {
+    transform: scale(1.1); /* Zoom in */
+}
+
+.box102{
+    width: 100px;
+    height: 30px;
+    background-color:rgb(9, 253, 49);
+    transition: transform 0.3s; /* Smooth animation */
+    padding:0;
+    margin: 0;
+    box-shadow: 2px 2px 10px #333;
+     position: absolute;
+    left: 1020px;
+    top: 2170px;
+    
+}
+
+/* When mouse hovers over the box */
+.box101:hover {
+    transform: scale(1.1); /* Zoom in */
+}
+
+
+
+
+ 
